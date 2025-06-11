@@ -1,2 +1,3 @@
 #!/bin/bash
-n=0; while read line; do n=$((n+1)); if [ $n -eq 3 ]; then echo "$line"; break; fi; done < iacta
+head -3 iacta | tail -1
+
